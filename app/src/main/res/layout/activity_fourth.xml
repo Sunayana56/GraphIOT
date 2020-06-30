@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/disptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textSize="25dp"
+        />
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText_X"-->
+        <!--android:layout_below="@+id/disptext"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="numberSigned"-->
+        <!--android:hint="Enter X value"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="24sp"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText_Y1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/editText_X"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="numberSigned"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="24sp"-->
+        <!--android:hint="Enter Y1 value" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText_Y2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/editText_Y1"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="numberSigned"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="24sp"-->
+        <!--android:hint="Enter Y2 value" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/editText_Y2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:text="ADD" />-->
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_below="@id/disptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--<com.github.mikephil.charting.charts.LineChart-->
+        <!--android:id="@+id/line_chart"-->
+        <!--android:layout_below="@id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+
+</RelativeLayout>

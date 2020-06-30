@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/grad_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dispMachId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/comp"
+        android:text="Machine graph"
+        android:textSize="20sp"
+        android:onClick="viewGraph"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape"
+        />
+
+    <Button
+        android:id="@+id/comp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Component graph"
+        android:textSize="20sp"
+        android:onClick="viewGraph"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape"
+        />
+
+    <Button
+        android:id="@+id/subComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/comp"
+        android:text="Sub-component graph"
+        android:onClick="viewGraph"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_shape"
+        />
+
+
+</RelativeLayout>
